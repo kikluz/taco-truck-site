@@ -5,7 +5,7 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
+  background: var(--clr-yellow-light);
   box-shadow: var(--light-shadow);
 }
 .nav-header {
@@ -16,7 +16,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-red-dark);
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -39,14 +39,15 @@ nav {
   transition: var(--transition);
 }
 .links a:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: var(--clr-green);
+  color: var(--clr-red);
   padding-left: 1.5rem;
 }
 .social-icons {
   display: none;
 }
 .links {
+  text-align: center;
   height: 0;
   overflow: hidden;
   transition: var(--transition);
@@ -86,10 +87,10 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: var(--clr-red);
     transition: var(--transition);
   }
   .social-icons a:hover {
-    color: var(--clr-primary-7);
+    color: var(--clr-green);
   }
 }
