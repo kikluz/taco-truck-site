@@ -1,0 +1,15 @@
+current directory: /home/kikluz/development/personal/middleman/taco-truck-site/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+/home/kikluz/.rbenv/versions/2.7.1/bin/ruby -I /home/kikluz/.rbenv/versions/2.7.1/lib/ruby/site_ruby/2.7.0 -r ./siteconf20220612-20703-1h5r18x.rb extconf.rb
+creating Makefile
+
+current directory: /home/kikluz/development/personal/middleman/taco-truck-site/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= clean
+
+current directory: /home/kikluz/development/personal/middleman/taco-truck-site/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\=
+compiling fast_blank.c
+linking shared-object fast_blank.so
+
+current directory: /home/kikluz/development/personal/middleman/taco-truck-site/vendor/ruby/2.7.0/gems/fast_blank-1.0.1/ext/fast_blank
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 fast_blank.so ./.gem.20220612-20703-1sttunb
