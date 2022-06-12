@@ -15,10 +15,10 @@ page '/*.json', layout: false
 page '/*.txt', layout: false
 
 # Deploy to github pages
-# activate :deploy do |deploy|
-#   deploy.deploy_method = :git
-#   deploy.build_before = true # default: false
-# end
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.build_before = true # default: false
+end
 
 import_path File.expand_path('bower_components', app.root)
 # extensions
