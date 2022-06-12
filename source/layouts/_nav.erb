@@ -1,0 +1,45 @@
+<nav>
+      <div class="nav-center">
+        <!-- nav header -->
+        <div class="nav-header">
+          <% link_to '/index.html' do %>
+            <%= image_tag 'mylogo.png', :class => "logo", :alt => "logo" %>
+          <% end %>
+
+          <button class="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- links -->
+        <ul class="links">
+          <li>
+            <%= link_to 'Home', '/index.html', :relative => true %>
+          </li>
+          <li>
+            <%= link_to 'Menu', '/menu.html', :relative => true %>
+          </li>
+          <li>
+            <%= link_to 'About', '/about.html', :relative => true %>
+          </li>
+          
+        </ul>
+        <!-- social media -->
+        <ul class="social-icons">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com">
+              <i class="fab fa-yelp"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
