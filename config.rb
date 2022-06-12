@@ -28,26 +28,23 @@ activate :syntax
 set :markdown_engine, :kramdown
 
 configure :development do
-	# set :images_dir, 'source/images'
-	# set :js_dir, 'source/javascripts'
-	# set :css_dir, 'assets/stylesheets'
-
-
-	# set :fonts_dir, 'source/fonts'
-	# set :site_url, 'middletown_creamery'
+  set :images_dir, 'source/images'
+  set :js_dir, 'source/javascripts'
+  set :css_dir, 'assets/stylesheets'
+  set :fonts_dir, 'source/fonts'
+  set :site_url, 'taco-truck-site'
 end
 
 configure :build do
-	set :relative_links, true
-	activate :minify_css
-	activate :minify_javascript
-	activate :asset_hash
-	
-	
-	# Relative assets needed to deploy to Github Pages
-	activate :relative_assets
-	# Name of the project where you working on
-	set :site_url, 'taco-truck-site'
+  set :relative_links, true
+  activate :minify_css
+  activate :minify_javascript
+  activate :asset_hash
+
+  # Relative assets needed to deploy to Github Pages
+  activate :relative_assets
+  # Name of the project where you working on
+  set :site_url, 'taco-truck-site'
 end
 
 # With alternative layout
