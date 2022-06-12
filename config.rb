@@ -28,11 +28,11 @@ activate :syntax
 set :markdown_engine, :kramdown
 
 configure :development do
-  set :images_dir, 'source/images'
-  set :js_dir, 'source/javascripts'
-  set :css_dir, 'assets/stylesheets'
-  set :fonts_dir, 'source/fonts'
-  set :site_url, 'taco-truck-site'
+  # set :images_dir, 'source/images'
+  # set :js_dir, 'source/javascripts'
+  # set :css_dir, 'assets/stylesheets'
+  # set :fonts_dir, 'source/fonts'
+  # set :site_url, 'taco-truck-site'
 end
 
 configure :build do
