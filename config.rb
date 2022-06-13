@@ -40,6 +40,7 @@ configure :build do
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+  
 
   # Relative assets needed to deploy to Github Pages
   activate :relative_assets
