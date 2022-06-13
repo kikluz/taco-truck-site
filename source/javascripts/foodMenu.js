@@ -1,4 +1,5 @@
 // food menu
+// ? Note I have to use var instead of let and also use fucntion instead of arrow fucntion
 const menuBtns = document.querySelectorAll(".menu-btn");
 const foodItems = document.querySelectorAll(".food-item");
 
