@@ -55,7 +55,19 @@ position: relative;
     width: 100%;
   }
 }
+.img-maya-info {
+  max-width: 80px;
+  text-align: center;
+} 
+.row {
+  background-color: green;
+}
 .column {
+  background: rgba(244,247,248,.8);
+    padding: 0 50px 50px;
+    border-radius: 10px;
+    text-align: center;
+  // padding: 100px;
   float: left;
   width: 50%;
 }
