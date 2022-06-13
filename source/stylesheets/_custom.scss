@@ -66,3 +66,22 @@ position: relative;
   display: table;
   clear: both;
 }
+
+// footer
+footer {
+  background: var(--clr-yellow-light);
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  h1, a, p {color: var(--clr-red);}
+
+}
+
+.footer_wrapper {
+  text-align: center;
+  padding:5rem;
+}
+.footer_email {
+  font-size: 1.2em;
+}
+
