@@ -40,7 +40,7 @@ Menu
   background: var(--clr-gold);
   color: var(--clr-white);
 }
-.section-center {
+.section-menu {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -86,7 +86,7 @@ Menu
   }
 }
 @media screen and (min-width: 1200px) {
-  .section-center {
+  .section-menu {
     width: 95vw;
     grid-template-columns: 1fr 1fr;
   }
