@@ -1,3 +1,6 @@
+// application.js.es6
+//= require babel/polyfill
+
 // classList - shows/gets all classes
 // contains - checks classList for specific class
 // add - add class
