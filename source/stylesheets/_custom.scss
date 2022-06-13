@@ -36,3 +36,33 @@ position: relative;
     font-size: 1.5em;
   }
 }
+
+// order-now panel
+.order-now {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--clr-red);
+  justify-content: center;
+}
+.order-now-info {
+  justify-content: center;
+  text-align: center;
+}
+
+// Two section info 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
