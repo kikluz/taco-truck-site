@@ -18,7 +18,3 @@ gem 'middleman-compass', '>= 4.0.0'
 gem 'byebug'
 gem "middleman-syntax"
 gem 'redcarpet'
-
-# https://github.com/vast/middleman-es6
-gem 'middleman-sprockets', '~> 4.0.0.rc'
-gem 'sprockets-es6'
