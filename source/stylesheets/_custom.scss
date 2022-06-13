@@ -48,37 +48,48 @@ position: relative;
   justify-content: center;
   text-align: center;
 }
-
+// -------------------------------------------------------------------------
 // Two section info 
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
+// -------------------------------------------------------------------------
+
+.container-pannels{
+   @media only screen and (max-width: 900px) {
+    padding: 20px;
+  }
+    display:flex;
+    padding: 100px;
+}
+.image-maya {
+  max-width: 100px;
+  margin-top: -11em;
+  display: inline;
+} 
+
+.column-1 {
+  flex-shrink: 0; /* shrinks to 0 to apply 50% width*/
+  flex-basis: 50%; /* sets initial width to 50% */
+}
+
+.box {
+ 
+  background: rgba(145, 236, 137, 0.8);
+  border-radius: 10px;
+  text-align: center;
+  padding: 40px;
+  border: 2px solid rgb(116, 113, 113);
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .container-pannels {
+      /* it place the items in vertical direction */
+    flex-direction: column;
+  }
+
+  .box {
+    margin: 0 0 1rem;
   }
 }
-.img-maya-info {
-  max-width: 80px;
-  text-align: center;
-} 
-.row {
-  background-color: green;
-}
-.column {
-  background: rgba(244,247,248,.8);
-    padding: 0 50px 50px;
-    border-radius: 10px;
-    text-align: center;
-  // padding: 100px;
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 // footer
 footer {
   background: var(--clr-yellow-light);
