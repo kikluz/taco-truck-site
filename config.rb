@@ -47,6 +47,11 @@ configure :build do
   set :site_url, 'taco-truck-site'
 end
 
+require 'sprockets/es6'
+activate :sprockets do |s|
+  s.supported_output_extensions << '.es6'
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
