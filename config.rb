@@ -47,8 +47,6 @@ configure :build do
   set :site_url, 'taco-truck-site'
 end
 
-
-
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
