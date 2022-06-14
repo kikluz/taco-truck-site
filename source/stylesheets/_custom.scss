@@ -29,6 +29,10 @@ position: relative;
   position: absolute;
   top: 50%;
   left: 50%;
+//   background-color: currentColor;
+// border-radius: 10px;
+//   opacity: 0.5;
+padding: 2em;
   transform: translate(-50%, -50%);
   h1 {color: white;}
   .title-intro {
@@ -41,7 +45,7 @@ position: relative;
 .order-now {
   display: flex;
   flex-direction: row;
-  background-color: var(--clr-red);
+  background-color: hsl(47.5, 85.7%, 67.1%);
   justify-content: center;
 }
 .order-now-info {

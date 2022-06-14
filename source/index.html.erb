@@ -22,23 +22,34 @@ title: Los Compas | Home
 <div class="container-pannels">
    <div class="column-1 box">
         <%= image_tag 'maya.png', :class => "image-maya" %>
-        <h1>MENU</h1>
+        <h1>OUR FOOD</h1>
         <p>
-            Checkout our menu.
+            Clean And Fresh Ingredients 
         </p>
-        <button type="button" class="btn">menu</button>
+        <button type="button" class="btn">
+        <%= link_to 'menu', '/menu.html', :relative => true %>
+        </button>
     </div>
     <div class="column-2 box">
       <%= image_tag 'maya-2.png', :class => "image-maya" %>
-        <h1>INFO</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur magni impedit aliquam voluptates accusantium.
-         Sit amet nostrum quas fugiat deleniti, ex nulla illum atque iure tempora aperiam, aliquid cumque cupiditate!</p>
+        <h1>HOURS & LOCATION</h1>
         <p>
-           location: 21208 Calistoga RD, Middletown ca.
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <a href="https://www.google.com/maps/place/21208+Calistoga+Rd,+Middletown,+CA+95461/@38.7510034,-122.6175477,17z/data=!3m1!4b1!4m5!3m4!1s0x80846e6d4674cfd9:0x788195bcbca5d107!8m2!3d38.7510034!4d-122.615359" target="blank?">
+					 21208 Calistoga Street Middletown, CA 95461
+				  </a>
+           <a href="tel:7072350831">707 235-0831</a>
         </p>
-        <p>tel: 707-235-0831</p>
         <p>
-          email us: <i>email</i>
+        <i class="fas fa-clock"></i>
+           Sun - Thurs: 9am - 9pm
+        </p>
+        <p>Fri & Sat: 9am - 10pm</p>
+        <p>
+        <a href="mailto:loscompastaqueria21@gmail.com">
+        <i class="fas fa-envelope"></i>
+          email us
+          </a>
         </p>
     </div>
 </div>
