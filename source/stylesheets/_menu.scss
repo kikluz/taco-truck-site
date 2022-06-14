@@ -14,7 +14,7 @@ Menu
 .underline {
   width: 5rem;
   height: 0.25rem;
-  background: var(--clr-gold);
+  background: #6be675;;
   margin-left: auto;
   margin-right: auto;
 }
@@ -56,7 +56,7 @@ Menu
 .photo {
   object-fit: cover;
   height: 200px;
-  border: 0.25rem solid var(--clr-gold);
+  border: 0.25rem solid var(--clr-primary-1);
   border-radius: var(--radius);
 }
 .item-info header {

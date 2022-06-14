@@ -5,18 +5,18 @@
 
 /* The hero image */
 .hero-image {
-/* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-background: linear-gradient(rgba(240, 97, 97, 0.1), rgba(179, 206, 157, 0.5)), url("../images/hero-image.png");
-@media (min-width: 768px) {
-/* Set a specific height */
-height: 600px;
-}
-height: 260px;
-/* Position and center the image to scale nicely on all screens */
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background: linear-gradient(rgba(240, 97, 97, 0.1), rgba(179, 206, 157, 0.5)), url("../images/hero-image.png");
+  @media (min-width: 768px) {
+  /* Set a specific height */
+  height: 600px;
+  }
+  height: 260px;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /* Place text in the middle of the image */
@@ -65,6 +65,7 @@ padding: 2em;
 }
 .image-maya {
   max-width: 100px;
+  @media only screen and (max-width: 900px) {margin-top: 0;}
   margin-top: -11em;
   display: inline;
 } 
@@ -128,10 +129,15 @@ footer {
   h1, a, p {color: var(--clr-red);}
 
 }
-
+.footer-logo {
+  max-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
 .footer_wrapper {
   text-align: center;
-  padding:5rem;
+  padding:3rem;
 }
 .footer_email {
   font-size: 1.2em;
