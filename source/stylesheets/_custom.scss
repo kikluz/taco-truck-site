@@ -6,7 +6,9 @@
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background: linear-gradient(rgba(240, 97, 97, 0.1), rgba(179, 206, 157, 0.5)), url("../images/hero-image.png");
+  // background: linear-gradient(rgba(240, 97, 97, 0.1), rgba(179, 206, 157, 0.5)), url("../images/hero-image.png");
+  // background: linear-gradient(rgba(240, 97, 97, 0.1), rgba(179, 206, 157, 0.5)), url("../images/team-hero.JPG");
+  background: linear-gradient(rgba(15, 30, 74, 0.1), rgba(21, 130, 114, 0.5)), url("../images/team-hero.JPG");
   @media (min-width: 768px) {
   /* Set a specific height */
   height: 600px;
